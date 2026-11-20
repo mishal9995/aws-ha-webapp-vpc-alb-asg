@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS High Availability Project - APP-SERVER-01</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 100px 20px 40px;
+      background: #eaf2ff;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      text-align: center;
+    }
+    .server-card {
+      width: min(588px, 100%);
+      min-height: 354px;
+      margin: 0 auto;
+      padding: 65px 24px 48px;
+      background: #fff;
+      border-radius: 17px;
+    }
+    h1 {
+      margin: 0 0 22px;
+      color: #1769c2;
+      font-size: clamp(27px, 3vw, 36px);
+      line-height: 1.2;
+    }
+    h2 { margin: 0 0 20px; font-size: 27px; }
+    p { margin: 0 0 17px; font-size: 18px; }
+    .status { margin-top: 22px; color: green; font-size: 20px; font-weight: 700; }
+    @media (max-width: 600px) {
+      body { padding-top: 60px; }
+      .server-card { min-height: 0; padding: 48px 18px; }
+      h2 { font-size: 23px; }
+      p { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="server-card">
+    <h1>AWS High Availability Project</h1>
+    <h2>APP-SERVER-01</h2>
+    <p>Served by EC2 Instance 1</p>
+    <p>Availability Zone: AZ-1</p>
+    <p class="status">Server Status: ACTIVE</p>
+  </main>
+</body>
+</html>
