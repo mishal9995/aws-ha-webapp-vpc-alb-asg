@@ -1,5 +1,5 @@
 # aws-production-grade-web-application-deployment
-<img width="2720" height="2384" alt="architecture_diagram" src="https://github.com/user-attachments/assets/b99ab30a-4bbf-4fd8-958e-0fac95b9a268" />
+![Alt text](architecture/architecture_diagram.png)
 
 Production-grade AWS infrastructure deployment using VPC, public and private subnets across multiple Availability Zones, EC2 Auto Scaling Group, Bastion Host, NAT Gateway, Application Load Balancer, and secure SSH access. Demonstrates high availability, network isolation, scalability, and load balancing.
 
